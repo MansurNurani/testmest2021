@@ -1,6 +1,4 @@
-import React from 'react'
-import styles from './styles.module.css'
+import MainComponent from "./MainComponent";
+import SubComponent from "./SubComponent";
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+export { MainComponent, SubComponent }
